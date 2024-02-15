@@ -19,5 +19,6 @@ def merge(first_sublist, second_sublist):
     while i < len(first_sublit) and j <len(second_sublist):
         if first_sublit[i] < second_sublist[j]:
             merged_list.append(first_sublist[i])
+            # This code is not complete yet 
 
     
